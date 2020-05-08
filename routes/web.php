@@ -16,3 +16,6 @@ use Illuminate\Support\Facades\Route;
 Auth::routes();
 
 Route::get('/', 'HomeController@index')->name('home');
+
+Route::livewire('/create', 'poll-form')->name('polls.create');
+Route::livewire('/edit/{poll}', 'poll-form')->name('polls.edit');

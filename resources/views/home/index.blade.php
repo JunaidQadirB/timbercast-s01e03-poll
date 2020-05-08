@@ -21,8 +21,7 @@
             </div>
 
             <p class="text-muted pt-3">Poll ends in 15 minutes</p>
-            
-            <button class="btn btn-sm btn-primary my-3" type="button">Submit</button>
+
         </div>
 
         <br/>
@@ -36,7 +35,7 @@
             <ul class="list-group border-0 bg-transparent mt-0 pt-0" style="max-width: 30rem;">
                 <li class="list-group-item border-0 bg-transparent mx-0 px-0 pb-0">
                     <div class="progress" style="height: 2rem">
-                        <div class="progress-bar" role="progressbar" style="width: 25%;" aria-valuenow="25"
+                        <div class="progress-bar" role="progressbar" style="width: 85%;" aria-valuenow="25"
                              aria-valuemin="0" aria-valuemax="100">
                         </div>
                         <span class="position-absolute mx-2 py-2">This is Choice One</span>
